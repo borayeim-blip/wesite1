@@ -1182,28 +1182,6 @@ section {
 }
 
 /* Custom cursor styles */
-#cursor {
-    position: fixed;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    width: 0;
-    height: 0;
-    z-index: 9999;
-}
-#cursor .cursor-dot {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: var(--primary, #ae38ff);
-    transform: translate(-50%, -50%);
-    will-change: transform;
-    box-shadow: 0 4px 12px rgba(174,56,255,0.3);
-}
 
-/* Slightly smaller trailing dots */
-#cursor .cursor-dot:nth-child(n+6) { width: 8px; height:8px; opacity:0.85 }
-#cursor .cursor-dot:nth-child(n+12) { width: 6px; height:6px; opacity:0.7 }
 
 
